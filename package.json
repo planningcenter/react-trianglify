@@ -1,0 +1,37 @@
+{
+  "name": "@joshwilkerson/react-trianglify",
+  "version": "1.0.0",
+  "description": "a simple React wrapper for Trianglify",
+  "private": false,
+  "main": "build/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshwilkerson/react-trianglify.git"
+  },
+  "peerDependencies": {
+    "react": "^16.8.2"
+  },
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "author": {
+    "name": "Josh Wilkerson"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.8.2",
+    "trianglify": "^4.0.0",
+    "webpack": "^4.43.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "prop-types": "^15.7.2",
+    "webpack-cli": "^3.3.12"
+  }
+}

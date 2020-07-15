@@ -2,7 +2,9 @@
 
 ### Installation
 `npm install --save @planningcenter/react-trianglify`
+
 or 
+
 `yarn add @planningcenter/react-trianglify`
 
 ### Props
@@ -26,13 +28,11 @@ For more detailed information on Trianglify's expected props, [click here](https
 ### Example
 ```
 import React from "react";
-import Trianglify from "@joshwilkerson/react-trianglify";
+import Trianglify from "@planningcenter/react-trianglify";
 
 function App() {
   return (
     <Trianglify height={200} width={350} variance={0.5} />
   )
 }
-
-export default App;
 ```

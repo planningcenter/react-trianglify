@@ -1,12 +1,12 @@
 {
-  "name": "@joshwilkerson/react-trianglify",
-  "version": "1.0.1",
+  "name": "@planningcenter/react-trianglify",
+  "version": "1.1.0",
   "description": "a simple React wrapper for Trianglify",
   "private": false,
   "main": "build/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/joshwilkerson/react-trianglify.git"
+    "url": "https://github.com/planningcenter/react-trianglify.git"
   },
   "peerDependencies": {
     "react": "^16.8.2"
@@ -16,7 +16,8 @@
     "build": "webpack"
   },
   "author": {
-    "name": "Josh Wilkerson"
+    "name": "Josh Wilkerson",
+    "email": "jgwilkerson@gmail.com"
   },
   "license": "MIT",
   "dependencies": {
